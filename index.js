@@ -9,7 +9,7 @@ const searchResultContainer = document.querySelector('.searchResultContainer');
 form.addEventListener('submit', async (event) => {
   event.preventDefault();
   const query = input.value;
-  const apiKey = '350b0fd2a429854b79388af650ef0285'; // replace with your actual API key
+  const apiKey = '1c2df40abfb2786d4a3da0b1f04411da'; // replace with your actual API key
   const apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${query}`;
 
   try {
